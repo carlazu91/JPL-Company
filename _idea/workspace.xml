@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ac38da06-9eaa-4c20-8d8b-a75b327c0e91" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2.1\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1hLUrkVkpjquIyk3RksJLGtbizJ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
+  </component>
+  <component name="RunManager" selected="Application.CreateLoans">
+    <configuration name="BusinessLoan" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BusinessLoan" />
+      <module name="Module 2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CreateLoans" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CreateLoans" />
+      <module name="Module 2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.CreateLoans" />
+        <item itemvalue="Application.BusinessLoan" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ac38da06-9eaa-4c20-8d8b-a75b327c0e91" name="Default Changelist" comment="" />
+      <created>1599790067156</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599790067156</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="587" y="122" key="#com.intellij.ide.util.MemberChooser" timestamp="1600130272428">
+      <screen x="0" y="30" width="1192" height="802" />
+    </state>
+    <state x="587" y="122" key="#com.intellij.ide.util.MemberChooser/0.30.1192.802@0.30.1192.802" timestamp="1600130272428" />
+    <state x="93" y="123" width="1005" height="615" key="DiffContextDialog" timestamp="1599831936377">
+      <screen x="0" y="30" width="1192" height="802" />
+    </state>
+    <state x="93" y="123" width="1005" height="615" key="DiffContextDialog/0.30.1192.802@0.30.1192.802" timestamp="1599831936377" />
+    <state x="377" y="186" key="FileChooserDialogImpl" timestamp="1599823093572">
+      <screen x="0" y="30" width="1192" height="802" />
+    </state>
+    <state x="377" y="186" key="FileChooserDialogImpl/0.30.1192.802@0.30.1192.802" timestamp="1599823093572" />
+    <state width="1194" height="747" key="GridCell.Tab.0.bottom" timestamp="1600137272115">
+      <screen x="0" y="30" width="1192" height="802" />
+    </state>
+    <state width="1194" height="747" key="GridCell.Tab.0.bottom/0.30.1192.802@0.30.1192.802" timestamp="1600137272115" />
+    <state width="1541" height="211" key="GridCell.Tab.0.bottom/0.46.1584.728@0.46.1584.728" timestamp="1600098414595" />
+    <state width="1194" height="747" key="GridCell.Tab.0.center" timestamp="1600137272100">
+      <screen x="0" y="30" width="1192" height="802" />
+    </state>
+    <state width="1194" height="747" key="GridCell.Tab.0.center/0.30.1192.802@0.30.1192.802" timestamp="1600137272100" />
+    <state width="1541" height="211" key="GridCell.Tab.0.center/0.46.1584.728@0.46.1584.728" timestamp="1600098414595" />
+    <state width="1194" height="747" key="GridCell.Tab.0.left" timestamp="1600137272100">
+      <screen x="0" y="30" width="1192" height="802" />
+    </state>
+    <state width="1194" height="747" key="GridCell.Tab.0.left/0.30.1192.802@0.30.1192.802" timestamp="1600137272100" />
+    <state width="1541" height="211" key="GridCell.Tab.0.left/0.46.1584.728@0.46.1584.728" timestamp="1600098414595" />
+    <state width="1194" height="747" key="GridCell.Tab.0.right" timestamp="1600137272100">
+      <screen x="0" y="30" width="1192" height="802" />
+    </state>
+    <state width="1194" height="747" key="GridCell.Tab.0.right/0.30.1192.802@0.30.1192.802" timestamp="1600137272100" />
+    <state width="1541" height="211" key="GridCell.Tab.0.right/0.46.1584.728@0.46.1584.728" timestamp="1600098414595" />
+  </component>
+</project>

@@ -1,0 +1,7 @@
+CreateLoans – an application that creates an array of five Loans.
+Prompt the user for the current prime interest rate.
+Then, in a loop, prompt the user for the loan type and all relevant information for that loan.
+Store the created Loan objects in the array. When data entry is complete, display all the loans.
+
+* Loans cant be more than 50,000
+* Force any loan term that is not one of the three defined in the LoanConstants interface to a short-term (1 year) loan
