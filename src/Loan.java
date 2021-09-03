@@ -1,35 +1,72 @@
-public abstract class Loan implements LoanConstants {
-    //instant variables
-    protected int loanNumber;
-    protected String lastName;
-    protected double loanAmount;
-    protected double interestRate;
-    protected int term;
+import java.util.Scanner;
 
-    //Constructor
-    public Loan(int loanNumber, String lastName, double loanAmount, int term) {
-        this.loanNumber = loanNumber;
-        this.lastName = lastName;
-        this.loanAmount = loanAmount;
-        this.term = term;
-    }
+public class CreateLoans implements LoanConstants{
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int choice, accountNumber, amount, term;
+        String lastName;
 
-    //toString Method
-    public String toString() {
-        String result;
-        result = "Loan Number: " + loanNumber + " Last Name: " + lastName + " Loan Amount: "  +
-                loanAmount + " Year Terms: " + term;
-        return result;
-    }
+        System.out.println("Welcome to " + companyName);
 
-    //equals method
-    public boolean equals(Loan loan){
-        if (this.loanNumber == loan.loanNumber &&
-                lastName.equals(loan.lastName) &&
-                loanAmount==loan.loanAmount &&
-                term == loan.term)
-            return true;
-        else
-            return false;
+        System.out.println("Please enter the current Prime Rate:");
+        double currentPrimeRate = sc.nextDouble();
+
+        Loan loans[] = new Loan[2];
+        for (int n=0; n<loans.length; n++){
+            System.out.println("Is this a Business loan (1) or a Personal loan(2)?");
+            choice = sc.nextInt();
+            if (choice == 1) {
+                System.out.println("Enter account number:");
+                accountNumber = sc.nextInt();
+
+                System.out.println("Enter Last Name:");
+                lastName = sc.next();
+
+                System.out.println("Enter Amount:");
+                amount = sc.nextInt();
+                if (amount > loanAmountMax) {
+                    System.out.println("Invalid amount, please enter amount less than " + loanAmountMax);
+                    System.out.println("Enter Amount:");
+                    amount = sc.nextInt();
+                }
+
+                System.out.println("Enter Term length: ");
+                term = sc.nextInt();
+                if (term != shortTerm && term != mediumTerm && term != longTerm) {
+                    term = shortTerm;
+                }
+
+                BusinessLoan b1 = new BusinessLoan(accountNumber, lastName, amount, term, currentPrimeRate);
+                loans[n] = b1;
+            }
+            else if (choice == 2) {
+                System.out.println("Enter account number:");
+                accountNumber = sc.nextInt();
+
+                System.out.println("Enter Last Name:");
+                lastName = sc.next();
+
+                System.out.println("Enter Amount:");
+                amount = sc.nextInt();
+                if(amount > loanAmountMax){
+                    System.out.println("Invalid amount, please enter amount less than " + loanAmountMax);
+                    System.out.println("Enter Amount:");
+                    amount = sc.nextInt();}
+
+                System.out.println("Enter Term length: ");
+                term = sc.nextInt();
+                if(term != shortTerm && term != mediumTerm && term != longTerm){
+                    term = shortTerm;}
+
+                PersonalLoan p1 = new PersonalLoan(accountNumber,lastName,amount,term,currentPrimeRate);
+                loans[n] = p1;
+            }
+        }
+
+        System.out.println("Welcome to " + companyName + " Thank you for the business");
+        for(int n=0;n<loans.length;n++)
+        {
+            System.out.println(loans[n]);
+        }
     }
 }
